@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>钟佑东052 Colors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 40px;
+            background-color: #ffffff;
+        }
+        h1 {
+            font-size: 48px;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 24px;
+            color: #333333;
+            font-weight: normal;
+            margin-bottom: 40px;
+        }
+        .color-item {
+            margin: 30px auto;
+            width: 300px;
+        }
+        .color-name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .color-box {
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            border: 2px solid #333;
+        }
+        .rojo-text { color: #ff0000; }
+        .azul-text { color: #0000ff; }
+        .anaranjado-text { color: #ff8800; }
+        .rojo-box { background-color: #ff0000; }
+        .azul-box { background-color: #0000ff; }
+        .anaranjado-box { background-color: #ff8800; }
+    </style>
+</head>
+<body>
+    <h1>钟佑东052 Colors</h1>
+    <h2>Learn the colors in Spanish!</h2>
+    
+    <div class="color-item">
+        <div class="color-name rojo-text">Rojo</div>
+        <div class="color-box rojo-box"></div>
+    </div>
+    
+    <div class="color-item">
+        <div class="color-name azul-text">Azul</div>
+        <div class="color-box azul-box"></div>
+    </div>
+    
+    <div class="color-item">
+        <div class="color-name anaranjado-text">Anaranjado</div>
+        <div class="color-box anaranjado-box"></div>
+    </div>
+</body>
+</html>
